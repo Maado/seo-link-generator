@@ -1,0 +1,7 @@
+{
+    "name": "maado/seo-link-generator",
+    "description": "seo link generator.",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
