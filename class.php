@@ -3,7 +3,13 @@
 
 class SeoLinks {
 
-
+    /**
+     * @param $input The link to be changed.
+     * @param string $replace use letter for replacemnt.
+     * @param bool $remove_words
+     *
+     * @return mixed SEO Friendly link
+     */
     public static function generate_seo_link($input, $replace = '-', $remove_words = true) {
 
 
